@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.app form{
+    display: block;
+    width: 35%;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding-top: 15px;
+    padding: 15px 5px 5px 5px;
+}
+
+.app form h1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.app form input{
+    display: block;
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: 1px solid gray;
+    margin: 10px 0;
+    padding-left: 15px;
+    font-size: 17px;
+}
+
+.app form select{
+    width: 100%;
+    height: 30px;
+    padding-left: 15px;
+    font-size: 17px;
+}
+
+.app form button{
+    margin: 15px 0;
+    width: 100%;
+    height: 30px;
+    background-color: #F77D24;
+    color: white;
+    border: none;
+    font-size: 17px;
+}
+
+.app .container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.app .container .card{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+}
+
+.app .container .card .img{
+    width:100%;
+    height: 250px;
+}
+
+.app .container .card .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.app .container .card p{
+    margin: 10px 10px;
+    font-size: 17px;
+
+}
